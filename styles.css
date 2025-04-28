@@ -1,0 +1,125 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.education {
+    color: #5f6368;
+    margin: 0;
+    font-size: 12px;
+}
+
+/* Contact info styles */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 0;
+    margin-left: 40px;
+    align-self: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-item img {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 14px;
+}
+
+/* Experience section styles */
+.experience {
+    margin-top: 25px;
+}
+
+.experience article {
+    margin-bottom: 20px;
+}
+
+.experience-title {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.experience-title h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #202124;
+}
+
+.experience-company {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.experience-location, .experience-date {
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.experience-skill {
+    margin: 8px 0;
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.experience-description ul {
+    margin: 8px 0;
+    padding-left: 20px;
+    color: #202124;
+    font-size: 14px;
+}
+
+/* Divider styles */
+hr {
+    border: none;
+    border-top: 1px solid #dadce0;
+    margin: 20px 0;
+}
+
+/* Freelancer section styles */
+.freelancer h2 {
+    color: #202124;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.sideProject {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #202124;
+}
